@@ -1,0 +1,39 @@
+:root {
+    --cor-de-fundo: #cccccc;
+    --cor-verde: #daff01;
+    --cor-botao: #9353ff;
+}
+
+#botao-lilas {
+    background-color: #9353FF;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.texto-menor {
+    font-size: 13px;
+    font-family: 'Inter';
+    color: #ffffff;
+}
+
+.titulo-facilidades {
+    font-size: 16px;
+    font-family: 'Inter';
+    color: var(--cor-verde );
+}
+
+.verde-limao {
+    color: var(--cor-verde );
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
